@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<root>
+<supermercados>
+<nombre>Alcampo</nombre>
+<direccion>Avda. de las Carolinas 3</direccion>
+<geolocalizacion>
+<latitud number="true">28.5260</latitud>
+<longitud number="true">161.1281</longitud>
+</geolocalizacion>
+<productos array="true">
+<nombre>Leche</nombre>
+<origen>Asturias, España</origen>
+<oferta boolean="true">true</oferta>
+<periodo_vigencia>24/03/2023 - 02/04/2023</periodo_vigencia>
+<unidad>litros</unidad>
+<precio_unidad number="true">0.89</precio_unidad>
+<precio_caja number="true">5.34</precio_caja>
+<cantidad>2 bricks</cantidad>
+<comprado boolean="true">true</comprado>
+</productos>
+</supermercados>
+<supermercados>
+<nombre>Arroz</nombre>
+<oferta boolean="true">false</oferta>
+ <periodo_vigencia null="true"/>
+    <unidad>kilos</unidad>
+    <precio number="true">1.29</precio>
+    <cantidad>Un paquete de 1Kg</cantidad>
+    <comprado boolean="true">true</comprado>
+  </supermercados>
+  <supermercados>
+    <nombre>Lidl</nombre>
+    <direccion>Calle Girasol 45</direccion>
+    <geolocalización>
+      <latitud number="true">13.8596</latitud>
+      <longitud number="true">162.7718</longitud>
+    </geolocalización>
+    <productos>
+      <nombre>Naranja Nacional</nombre>
+      <origen>España</origen>
+      <oferta boolean="true">true</oferta>
+      <periodo_vigencia>30/03/2023 - 05/04/2023</periodo_vigencia>
+      <unidad>kilos</unidad>
+      <precio_unidad null="true"/>
+      <precio number="true">2.79</precio>
+      <cantidad>Malla de 3Kg</cantidad>
+      <comprado boolean="true">true</comprado>
+    </productos>
+    <productos>
+      <nombre>Atún Claro Natural</nombre>
+      <oferta boolean="true">false</oferta>
+      <periodo_vigencia null="true"/>
+      <unidad>gramos</unidad>
+      <precio_unidad number="true">0.63</precio_unidad>
+      <precio number="true">2.36</precio>
+      <cantidad>un paquete de 3 latas</cantidad>
+      <comprado boolean="true">false</comprado>
+    </productos>
+  </supermercados>
+</root>

@@ -1,0 +1,72 @@
+{
+    "supermercados": [
+        {
+            "nombre": "Alcampo",
+            "direccion": "Avda. de las Carolinas 3",
+            "geolocalización": {
+                "latitud": 28.5260,
+                "longitud": 161.1281
+            },
+            
+            "productos": [
+                {
+                    "nombre": "Leche",
+                    "origen": "Asturias, España",
+                    "oferta": true,
+                    "periodo_vigencia": "24/03/2023 - 02/04/2023",
+                    "unidad": "litros",
+                    "precio_unidad": 0.89,
+                    "precio_caja": 5.34,
+                    "cantidad": "2 bricks",
+                    "comprado": true
+                }
+            ]
+        },
+
+        {
+            "nombre": "Arroz",
+            "oferta": false,
+            "periodo_vigencia": null,
+            "unidad": "kilos",
+            "precio": 1.29,
+            "cantidad": "Un paquete de 1Kg",
+            "comprado": true
+        },
+
+        {
+            "nombre": "Lidl",
+            "direccion": "Calle Girasol 45",
+            "geolocalización": {
+                "latitud": 13.8596,
+                "longitud": 162.7718
+            },
+
+                "productos": [
+                    {
+                       "nombre": "Naranja Nacional",
+                       "origen": "España",
+                       "oferta": true,
+                       "periodo_vigencia": "30/03/2023 - 05/04/2023",
+                       "unidad": "kilos",
+                       "precio_unidad": null,
+                       "precio": 2.79,
+                       "cantidad": "Malla de 3Kg",
+                       "comprado": true
+                    },
+                    
+                    {
+                        "nombre": "Atún Claro Natural",
+                        "oferta": false,
+                        "periodo_vigencia": null,
+                        "unidad": "gramos",
+                        "precio_unidad": 0.63,
+                        "precio": 2.36,
+                        "cantidad": "un paquete de 3 latas",
+                        "comprado": false
+
+                    }
+                ]
+            }
+        
+    ]
+}
