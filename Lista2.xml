@@ -20,6 +20,7 @@
 </productos>
 </supermercados>
 <supermercados>
+<productos array="true">
 <nombre>Arroz</nombre>
 <oferta boolean="true">false</oferta>
  <periodo_vigencia null="true"/>
@@ -27,6 +28,7 @@
     <precio number="true">1.29</precio>
     <cantidad>Un paquete de 1Kg</cantidad>
     <comprado boolean="true">true</comprado>
+    </productos>
   </supermercados>
   <supermercados>
     <nombre>Lidl</nombre>
