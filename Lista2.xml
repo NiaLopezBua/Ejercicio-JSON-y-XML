@@ -33,10 +33,10 @@
   <supermercados>
     <nombre>Lidl</nombre>
     <direccion>Calle Girasol 45</direccion>
-    <geolocalización>
+    <geolocalizacion>
       <latitud number="true">13.8596</latitud>
       <longitud number="true">162.7718</longitud>
-    </geolocalización>
+    </geolocalizacion>
     <productos>
       <nombre>Naranja Nacional</nombre>
       <origen>España</origen>
